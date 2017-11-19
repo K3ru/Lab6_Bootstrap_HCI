@@ -1,0 +1,208 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* RESET STYLES----------------------------------------------------------------------*/
+
+a, a:hover{
+	text-decoration: none; 
+}
+
+/* DEFINICIÓN de clases genérica de tamaños de fuentes-------------------------------*/
+/* fs: font size*/
+
+.fs-small{
+	font-size: 12px; 
+}
+
+.fs-med{
+	font-size: 14px; 
+}
+
+.fs-big{
+	font-size: 18px; 
+}
+
+/* DEFINICIÓN genérica de tipos de fuentes------------------------------------------*/
+/* ff: font family*/
+
+.ff-francois{
+	font-family: 'Francois One', sans-serif;
+}
+
+.ff-sans{
+	font-family: sans-serif;
+}
+
+/* DEFINICIÓN genérica de colores de fuentes----------------------------------------*/
+/* fc: font color*/
+
+.fc-dark-blue{
+	color: #013666;
+}
+
+.fc-blue{
+	color: #005d84;
+}
+
+.fc-green{
+	color: #008332;
+}
+
+.fc-white{
+	color: #ffffff;
+}
+
+.fc-yellow{
+	color:#fcd93c;
+}
+
+.fc-grey{
+	color: #dfdfdf;
+}
+
+.fc-dark-grey{
+	color: #1c1c1b;
+}
+
+/* DEFINICIÓN genérica alineación de texto--------------------------------------------*/
+/* ta: text-align*/
+
+.ta-center{
+	text-align: center;
+}
+
+.ta-justify{
+	text-align: justify;
+}
+
+.ta-right{
+	text-align : right;
+}
+
+/* DEFINICIÓN genérica transformación de texto-----------------------------------------*/
+/* tt: text-transformation*/
+.tt-upper{
+	text-transform: uppercase;
+}
+
+
+/* definición de estilos---------------------------------------------------------------*/
+.main-menu-container{
+	background-color: #ABED70;
+}
+
+.fifa-logo{
+	height: inherit;
+}
+
+.menu-options{
+	margin-right: 20%;
+	margin-top: 1%;
+}
+
+ul.menu-options li{
+	text-transform: uppercase;
+}
+
+ul.menu-options li a, ul.menu-options li.active a{
+	color: #013666;
+	background-color: transparent;
+}
+
+ul.menu-options li a:hover, ul.menu-otions li.active a:hover{
+	background-color: #FCD93C;
+	color: #013666;
+}
+
+ul.menu-options li.active a{
+	color: #013666;
+	background-color: #FCD93C; 
+}
+
+.main-header{
+	background-color: #42CACF;
+	margin-top: 6%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.fifa-pet{
+	margin: 0 auto;
+}
+
+.main-info{
+	margin-top: 14%;
+	margin-left: 5%;
+	margin-right: 18%;
+}
+
+a.green-btn-top{
+	background-color: #8AE539;
+	float: right;
+	color: #1B7C1B;
+	width: 24%;
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.news-content{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+
+.search-container{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.search-container input{
+	width: 84%;
+	background-color: #8AE539;
+	border: 0px;
+	line-height: 30px;
+}
+
+.search-container img{
+	cursor: pointer;
+}
+
+.fifa-cup{
+	margin: 0 auto;
+}
+
+a.green-btn-bottom{
+	background-color: #8AE539;
+	float: left;
+	color: #1B7C1B;
+	width: 24%;
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.main-footer{
+	background-color: #BACBD1;
+	margin-top: 6%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+footer{
+	background-color: black;
+	height: 60px;
+	padding: 20px 0;
+}
+

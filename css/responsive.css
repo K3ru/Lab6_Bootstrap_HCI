@@ -1,0 +1,115 @@
+@media (min-width: 991px) and (max-width: 2500px) {
+
+	.fifa-pet{
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 2%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 990px)  {
+
+	.container{
+		padding-left: 10%;
+	}
+
+	.mobile-menu{
+		background-color: #FCD93C;
+	}
+
+	.menu-options{
+		margin-right:3%;
+		margin-top: 1%;
+		width:60%;
+	}
+
+	.navbar-toggle{
+		margin-top: 20px;
+	}
+
+	.fifa-pet{
+		width: 75%;
+		margin-top: 10%;
+		margin-bottom: 2%;
+	}
+
+	.main-info{
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 18%;
+		margin-bottom: 12%;
+	}
+
+	.fifa-cup{
+		width: 45%;
+		margin-top: 2%;
+		margin-bottom: 3%;
+	}
+
+	.search-container{
+		width:100%;
+		margin: 0 auto;
+		padding: 5%;
+	}
+
+	.news-content{
+		width: 75%
+		margin: 0 auto;
+		padding: 2%;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.container{
+		padding-left: 10%;
+	}
+
+	.mobile-menu{
+		background-color: #FCD93C;
+	}
+
+	.menu-options{
+		margin-right:3%;
+		margin-top: 1%;
+		width: 100%;
+	}
+
+	.navbar-toggle{
+		margin-top: 20px;
+
+	}
+
+	.fifa-pet{
+		width: 40%;
+		margin-top: 15%;
+		margin-bottom: 1%;
+	}
+
+	.main-info{
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 18%;
+		margin-bottom: 15%;
+	}
+
+	.fifa-cup{
+		width: 35%;
+		margin-top: 5%;
+		margin-bottom: 3%;
+	}
+
+	.search-container{
+		width: 80%;
+		margin: 0 auto;
+		padding: 5%;
+	}
+
+	.news-content{
+		width: 100%
+		margin: 0 auto;
+		padding: 2%;
+	}
+
+}
